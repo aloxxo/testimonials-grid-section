@@ -1,0 +1,31 @@
+@use '../base/variables' as v;
+
+.card {
+    background-color: v.$grey-400;
+    border-radius: .5rem;
+    overflow: hidden;
+    color: v.$white;
+
+    &--daniel {
+        background-color: v.$purple-500;
+    }
+
+    &--jonathan {
+        background-color: v.$grey-500;
+    }
+
+    &--jeanette {
+        background-color: v.$white;
+        color: v.$grey-500;
+    }
+
+    &--patrick {
+        background-color: v.$dark-blue;
+    }
+
+    &--kira {
+        background-color: v.$white;
+        color: v.$grey-500;
+    }
+}
+

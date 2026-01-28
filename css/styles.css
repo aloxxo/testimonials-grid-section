@@ -20,4 +20,34 @@ body {
   place-items: center;
 }
 
+.testimonials {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: hsl(224, 10%, 45%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: hsl(0, 0%, 100%);
+}
+.card--daniel {
+  background-color: hsl(263, 55%, 52%);
+}
+.card--jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+.card--jeanette {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+.card--patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+.card--kira {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
 /*# sourceMappingURL=styles.css.map */
