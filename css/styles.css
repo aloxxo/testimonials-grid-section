@@ -11,4 +11,13 @@ img {
   display: block;
 }
 
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  background-color: hsl(214, 17%, 92%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
