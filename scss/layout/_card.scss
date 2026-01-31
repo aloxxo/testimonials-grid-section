@@ -5,6 +5,54 @@
     border-radius: .5rem;
     overflow: hidden;
     color: v.$white;
+    padding: 2.2rem;
+
+    &__header {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    &__image {
+        border-radius: 50%;
+        height: 2rem;
+
+        &--daniel {
+            border: 2px solid v.$purple-300;
+        }
+
+        &--patrick {
+            border: 2px solid v.$purple-500;
+        }
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        line-height: 1.2;
+        font-weight: 500;
+        font-size: 1.23rem;
+
+        &--jeanette {
+            font-weight: 600;
+        }
+
+        &--kira {
+            font-weight: 600;
+        }
+    }
+
+    &__text {
+        line-height: 1.5;
+
+        &--jeanette {
+            font-weight: 500;
+            color: v.$grey-400;
+        }
+
+        &--kira {
+            font-weight: 500;
+            color: v.$grey-400;
+        }
+    }
 
     &--daniel {
         background-color: v.$purple-500;
@@ -28,4 +76,16 @@
         color: v.$grey-500;
     }
 }
+
+.user-info {
+        padding-left: .8rem;
+        
+        &__name {
+            font-weight: 500;
+        }
+
+        &__status {
+            font-size: .65rem;
+        }
+    }
 
